@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDI: E-Diksyonaryo Batangueño</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1.5em 2em;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 0.5em 0 0;
+            font-size: 1.2em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1em 2em;
+            text-decoration: none;
+            display: block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        main {
+            padding: 2em;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        section {
+            margin-bottom: 2.5em;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 0.5em;
+            color: #4CAF50;
+        }
+        section p, section ul {
+            font-size: 1.1em;
+            line-height: 1.6em;
+        }
+        .dictionary-item, .translation-result, .mapping, .meaning-item, .history-item {
+            background-color: white;
+            padding: 1em;
+            margin: 1em 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EDI: E-Diksyonaryo Batangueño</h1>
+        <p>An Online Interactive Dictionary for Batangueño Local Terms</p>
+    </header>
+    <nav>
+        <a href="#dictionary">Dictionary</a>
+        <a href="#translation">AI Translation</a>
+        <a href="#mapping">GIS Mapping</a>
+        <a href="#meanings">Different Meanings</a>
+        <a href="#history">History</a>
+    </nav>
+    <main>
+        <section id="dictionary">
+            <h2>Batangueño Dictionary</h2>
+            <div class="dictionary-item">
+                <h3>Term: Baliskog</h3>
+                <p><strong>Meaning:</strong> Curved, bent</p>
+                <p><strong>Example:</strong> "Ang kalsada ay baliskog." (The road is curved.)</p>
+                <p><strong>Phonetic:</strong> /ba-lis-kog/</p>
+            </div>
+            <div class="dictionary-item">
+                <h3>Term: Amba</h3>
+                <p><strong>Meaning:</strong> To signal, to gesture</p>
+                <p><strong>Example:</strong> "Nag-amba siya na aalis na." (He signaled that he was about to leave.)</p>
+                <p><strong>Phonetic:</strong> /am-ba/</p>
+            </div>
+        </section>
+        <section id="translation">
+            <h2>AI Translation</h2>
+            <div class="translation-result">
+                <h3>Translate Batangueño to English</h3>
+                <p><strong>Input:</strong> "Makinaadya"</p>
+                <p><strong>Output:</strong> "To prepare"</p>
+            </div>
+            <div class="translation-result">
+                <h3>Translate English to Batangueño</h3>
+                <p><strong>Input:</strong> "Happy"</p>
+                <p><strong>Output:</strong> "Masaya"</p>
+            </div>
+        </section>
+        <section id="mapping">
+            <h2>GIS Mapping</h2>
+            <div class="mapping">
+                <h3>Common Terms by District</h3>
+                <p>View the GIS map to see where specific Batangueño terms are most commonly used across different districts of Batangas.</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Batangas_City_aerial_view.jpg/640px-Batangas_City_aerial_view.jpg" alt="Batangas Aerial View" style="width: 100%; border: 1px solid #ddd; border-radius: 5px;">
+            </div>
+        </section>
+        <section id="meanings">
+            <h2>Different Meanings</h2>
+            <div class="meaning-item">
+                <h3>Term: Ulit</h3>
+                <p><strong>Meaning 1:</strong> Again (e.g., "Ulitin mo nga.")</p>
+                <p><strong>Meaning 2:</strong> Memory (e.g., "Ang ulit ko noong bata ako.")</p>
+            </div>
+            <div class="meaning-item">
+                <h3>Term: Banggi</h3>
+                <p><strong>Meaning 1:</strong> Night (e.g., "Gabi na, banggi na.")</p>
+                <p><strong>Meaning 2:</strong> To stay overnight (e.g., "Magbanggi tayo sa bahay nila.")</p>
+            </div>
+        </section>
+        <section id="history">
+            <h2>History of Batangueño Terms</h2>
+            <div class="history-item">
+                <h3>Term: Bahala Na</h3>
+                <p>The phrase "Bahala na" is deeply rooted in the Filipino psyche, particularly among Batangueños. It traces its origins to pre-colonial times, where "Bathala" (a deity) was invoked, entrusting one's fate to a higher power. Over time, it evolved into "Bahala na," reflecting a resilient and adaptive mindset in the face of uncertainty.</p>
+            </div>
+            <div class="history-item">
+                <h3>Term: Kumusta</h3>
+                <p>Derived from the Spanish "¿Cómo está?" during the colonial period, "Kumusta" has been adapted into the Batangueño dialect as a common greeting. It symbolizes the fusion of local and foreign influences that have shaped the language over centuries.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 EDI: E-Diksyonaryo Batangueño. All rights reserved.</p>
+    </footer>
+</body>
+</html>
